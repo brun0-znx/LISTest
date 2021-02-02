@@ -50,12 +50,6 @@ public class Encrypter {
             }
         }
 
-        for(int i=0; i<rowNumber; i++) {
-            for (int j = 0; j < columnNumber; j++) {
-                System.out.print((matrix[i][j]));
-            }
-            System.out.printf("\n");
-        }
         //getting all matrix characters to the encrypted string
         for(int i=0; i<columnNumber; i++){
             for(int j=0; j<rowNumber; j++){
